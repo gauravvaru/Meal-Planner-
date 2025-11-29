@@ -1,0 +1,6 @@
+.streamlit/
+venv/
+meal-planner-venv/
+__pycache__/
+.idea/
+**/.DS_Store

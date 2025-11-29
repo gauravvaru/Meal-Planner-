@@ -1,0 +1,5 @@
+anthropic==0.3.4
+openai==1.35.3
+pandas==2.0.3
+streamlit==1.35.0
+requests==2.31.0
