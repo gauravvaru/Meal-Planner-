@@ -23,8 +23,8 @@ Follow these steps to set up and run the AI Meal Planner on your local machine:
 
 ### Prerequisites
 
--   Python 3.8+
--   `pip` (Python package installer)
+-   Python 3.9.25 (Required - Python 3.13+ is not supported due to missing `imghdr` module)
+-   `conda` (Anaconda/Miniconda package manager)
 -   A Groq API Key
 
 ### Installation
@@ -36,12 +36,14 @@ Follow these steps to set up and run the AI Meal Planner on your local machine:
     cd Meal-Planner-
     ```
 
-2.  **Create a Virtual Environment (Recommended):**
+2.  **Create a Conda Environment:**
 
     ```bash
-    conda create -n meal-planner-env python=3.9 -y
+    conda create -n meal-planner-env python=3.9.25 -y
     conda activate meal-planner-env
     ```
+
+    **Note:** Python 3.9.25 is required. Python 3.13+ removed the `imghdr` module which is needed by Streamlit 1.19.0.
 
 3.  **Install Dependencies:**
 
