@@ -1,7 +1,7 @@
 anthropic
 openai
 pandas
-streamlit==1.19.0
+streamlit>=1.32.0
 requests
 groq
 altair==4.2.0
